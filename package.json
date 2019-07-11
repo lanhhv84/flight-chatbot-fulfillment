@@ -1,0 +1,16 @@
+{
+    "name": "chatbot",
+    "version": "0.0.1",
+    "description": "Test Agent webhook",
+    "main": "index.js",
+    "author": "Abhinav Tyagi, New Delhi, India",
+    "dependencies": {
+        "dialogflow-fulfillment": "^0.4.1",
+        "body-parser": "^1.18.3",
+        "express": "^4.16.3",
+        "actions-on-google": "^2.2.0"
+    },
+    "scripts": {
+        "start": "node ./index.js"
+    }
+}
